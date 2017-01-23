@@ -1,0 +1,256 @@
+Ryan Turner
+Assignment 1 Example1
+COS 420
+Output Testing
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+z
+INVALID ENTRY
+
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+9
+
+Invalid choice, Please enter a number between 0 and 8
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+1
+
+ENTER 6 DIGIT CUSTOMER'S ID NUMBER ######
+asdf
+NO RECORD OF THAT CUSTOMER ID
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+1
+
+ENTER 6 DIGIT CUSTOMER'S ID NUMBER ######
+123456
+ENTER 6 DIGIT INVENTORY'S NUMBER ######:
+123456
+ENTER QUANTITY:
+500
+SORRY, THERE IS NOT ENOUGH IN STOCK FOR THAT ITEM
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+1
+
+ENTER 6 DIGIT CUSTOMER'S ID NUMBER ######
+123456
+ENTER 6 DIGIT INVENTORY'S NUMBER ######:
+123457
+NO RECORD OF THAT INVENTORY ID
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+4
+
+ENTER 6 DIGIT ID NUMBER ######
+123456
+ENTER NEW AMOUNT
+0
+Updated Inventory Stock for: Red Roses, new total = 0
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+1
+
+ENTER 6 DIGIT CUSTOMER'S ID NUMBER ######
+123456
+ENTER 6 DIGIT INVENTORY'S NUMBER ######:
+123456
+ENTER QUANTITY:
+1
+SORRY, THERE IS NOT ENOUGH IN STOCK FOR THAT ITEM
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+1
+
+ENTER 6 DIGIT CUSTOMER'S ID NUMBER ######
+123456
+ENTER 6 DIGIT INVENTORY'S NUMBER ######:
+206269
+ENTER QUANTITY:
+1
+ENTER BEGIN DATE? Y/N (default is last month)
+
+n
+DATE ENTERED: 01/07/2016
+ENTER END DATE? Y/N (default is today)
+
+y
+ENTER MONTH XX (example 05 for May)
+March
+INVALID ENTRY
+
+ENTER MONTH XX (example 05 for May)
+03
+ENTER DAY XX
+today
+INVALID ENTRY
+
+ENTER MONTH XX (example 05 for May)
+03
+ENTER DAY XX
+7
+ENTER YEAR XXXX
+2016
+DATE ENTERED: 03/07/2016
+
+1 Order(s) Made for Customer:
+Ryan Turner CUSTOMER ID: 123456
+for 1 order(s) of Pink Carnations
+Begin Date: 01/07/2016 and End Date: 03/07/2016
+
+PRESS 1 FOR ADDITIONAL ORDERS OR PRESS ENTER TO CONTINUE
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+2
+
+Provide 6 digit ID number? Y/N
+(One will be automatically assigned if not provided)
+
+y
+ENTER 6 DIGIT ID NUMBER ######
+123456
+CUSTOMER ID ALREADY BEING USED.
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+3
+
+Provide 6 digit ID number? Y/N
+(One will be automatically assigned if not provided)
+
+y
+ENTER 6 DIGIT ID NUMBER ######
+123456
+INVENTORY ID ALREADY USED.
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+6
+
+List of Customers:
+[
+id= 364773
+Name= Bugs Bunny
+Address= 123 HoleintheGround Warner Bros
+, 
+id= 123456
+Name= Ryan Turner
+Address= 123 Main St
+, 
+id= 789456
+Name= Joe Test
+Address= 12 Main St. Portland ME 04101
+, 
+id=  40622
+Name= Daffy Duck
+Address= 321 Pond St Warner Bros Studios
+]
+
+Would you like to edit or remove an item from the list? Y/N
+y
+
+TO UPDATE CUSTOMER INFORMATION ON THE LIST PRESS 1
+TO REMOVE A CUSTOMER ON THE LIST PRESS 2
+PRESS ANY OTHER BUTTON TO RETURN TO MAIN MENU
+2
+ENTER 6 DIGIT ID NUMBER ######
+all
+INVALID ENTRY

@@ -1,0 +1,286 @@
+Ryan Turner
+Output 
+
+Added 3 customers and 5 inventory items(with quantities 3,4,5,6, & 7)
+=======List of Customers=============
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+6
+
+List of Customers:
+[
+id= 364773
+Name= Bugs Bunny
+Address= 123 HoleintheGround Warner Bros
+, 
+id= 123456
+Name= Ryan Turner
+Address= 123 Main St
+, 
+id=  40622
+Name= Daffy Duck
+Address= 321 Pond St Warner Bros Studios
+]
+
+Would you like to edit or remove an item from the list? Y/N
+
+=======List of Inventory=============
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+5
+
+List of Inventory:
+[
+id= 123456
+Description= Red Roses......Total Quantity= 3
+, 
+id= 955770
+Description= Violet Lilies......Total Quantity= 5
+, 
+id= 267852
+Description= Orange Poppies......Total Quantity= 7
+, 
+id= 205352
+Description= Blue Orchids......Total Quantity= 4
+, 
+id= 206269
+Description= Pink Carnations......Total Quantity= 6
+]
+
+Would you like to edit or remove an item from the list? Y/N
+
+=======Add Customer=============
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+2
+
+Provide 6 digit ID number? Y/N
+(One will be automatically assigned if not provided)
+
+y
+ENTER 6 DIGIT ID NUMBER ######
+789456
+ENTER FIRST NAME:
+Joe
+ENTER LAST NAME:
+Test
+ENTER CUSTOMER'S ADDRESS
+12 Main St. Portland ME 04101
+Added Customer: Joe Test with ID number: 789456
+
+=======Add Inventory Item=============
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+3
+
+Provide 6 digit ID number? Y/N
+(One will be automatically assigned if not provided)
+
+n
+ENTER DESCRIPTION:
+Yellow Daisies
+ENTER AMOUNT IN STOCK:
+10
+Added Inventory: Yellow Daisies with ID number: 509729 total = ..... 10
+
+=======Stock is added===========
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+4
+
+ENTER 6 DIGIT ID NUMBER ######
+509729
+ENTER NEW AMOUNT
+12
+Updated Inventory Stock for: Yellow Daisies, new total = 12
+
+====Order is Made========
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+1
+
+ENTER 6 DIGIT CUSTOMER'S ID NUMBER ######
+123456
+ENTER 6 DIGIT INVENTORY'S NUMBER ######:
+123456
+ENTER QUANTITY:
+1
+ENTER BEGIN DATE? Y/N (default is last month)
+
+n
+DATE ENTERED: 01/07/2016
+ENTER END DATE? Y/N (default is today)
+
+y
+ENTER MONTH XX (example 05 for May)
+1
+ENTER DAY XX
+23
+ENTER YEAR XXXX
+2017
+DATE ENTERED: 01/23/2017
+
+1 Order(s) Made for Customer:
+Ryan Turner CUSTOMER ID: 123456
+for 1 order(s) of Red Roses
+Begin Date: 01/07/2016 and End Date: 01/23/2017
+
+PRESS 1 FOR ADDITIONAL ORDERS OR PRESS ENTER TO CONTINUE
+
+=======List of Customers=============
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+6
+
+List of Customers:
+[
+id= 364773
+Name= Bugs Bunny
+Address= 123 HoleintheGround Warner Bros
+, 
+id= 123456
+Name= Ryan Turner
+Address= 123 Main St
+, 
+id= 789456
+Name= Joe Test
+Address= 12 Main St. Portland ME 04101
+, 
+id=  40622
+Name= Daffy Duck
+Address= 321 Pond St Warner Bros Studios
+]
+
+Would you like to edit or remove an item from the list? Y/N
+n
+
+=======List of Inventory=============
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+5
+
+List of Inventory:
+[
+id= 123456
+Description= Red Roses......Total Quantity= 2
+, 
+id= 955770
+Description= Violet Lilies......Total Quantity= 4
+, 
+id= 509729
+Description= Yellow Daisies......Total Quantity= 12
+, 
+id= 267852
+Description= Orange Poppies......Total Quantity= 7
+, 
+id= 205352
+Description= Blue Orchids......Total Quantity= 4
+, 
+id= 206269
+Description= Pink Carnations......Total Quantity= 6
+]
+
+Would you like to edit or remove an item from the list? Y/N
+n
+
+=======List of Orders=============
+
+Enter the number denoting the action to perform:
+PLACE ORDER.................1
+ADD NEW CUSTOMER............2
+ADD INVENTORY ITEM..........3
+UPDATE STOCK................4
+DISPLAY INVENTORY...........5
+DISPLAY CUSTOMERS...........6
+DISPLAY CURRENT ORDERS......7
+Exit........................8
+Enter choice: 
+7
+
+List of Current Orders:
+[
+Order:
+Order Number ID= 442352
+Customer ID = 123456
+Inventory Item= 123456
+Amount Ordered= 1
+Begin Date= 01/07/2016
+End Date= 01/23/2017
+]
+
+Would you like to remove an order from the list? Y/N
+n
+
+
